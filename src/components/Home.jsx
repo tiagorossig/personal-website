@@ -8,7 +8,7 @@ function Home(props) {
           <div class="col-12 text-center">
             <h1 class="font-weight-light">Tiago Grimaldi Rossi</h1>
             <p class="lead">
-              TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST
+              TESTTESTTESTTESTTESTTESESTTESTTETESTTESTTESTTESTTESTTESTTESTTEST
             </p>
           </div>
         </div>
