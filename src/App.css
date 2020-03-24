@@ -14,14 +14,16 @@
 
 .portfolio {
   position: relative;
-
-  top: 40px;
-  width: 60%;
+  top: 50px;
   height: 100%;
-  background-color: yellow;
 }
 
-#notFound {
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.notFound {
   height: 100vh;
   min-height: 500px;
   background-size: cover;
