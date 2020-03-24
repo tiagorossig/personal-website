@@ -9,4 +9,36 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  font-family: "Montserrat";
+}
+
+.portfolio {
+  position: relative;
+
+  top: 40px;
+  width: 60%;
+  height: 100%;
+  background-color: yellow;
+}
+
+#notFound {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.padding-right-left {
+  padding-right: 150px;
+  padding-left: 150px;
+  background-color: yellow;
+}
+
+.padding-top {
+  padding-top: 10px;
 }
