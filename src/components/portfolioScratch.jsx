@@ -22,11 +22,7 @@ function Portfolio(props) {
             <div className="col-md-5">
               <a href="/">
                 <div id="wrapper">
-                  <img
-                    className="img-fluid rounded mb-3 mb-md-0 project hover"
-                    src={projectOne}
-                    alt=""
-                  />
+                  <img className="project-image" src={projectOne} alt="" />
                   <p className="text">View project</p>
 
                   <div className="text">

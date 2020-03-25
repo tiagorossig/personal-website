@@ -51,7 +51,7 @@ body {
 }
 
 #padding-notHome {
-  padding-top: 200px;
+  padding-top: 170px;
   padding-bottom: 80px;
 }
 
@@ -95,8 +95,7 @@ body {
 
 .project-container {
   position: relative;
-  margin-top: 50px;
-  width: 500px;
+  width: 400 px;
   height: 300px;
 }
 
@@ -112,21 +111,22 @@ body {
 
 .project-container:hover .overlay {
   display: block;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .project-img {
   position: absolute;
-  width: 500px;
+  width: 400px;
   height: 300px;
   left: 0;
 }
 
 .project-title {
   position: absolute;
-  width: 500px;
+  width: 470px;
   left: 0;
-  top: 120px;
+  right: 100px;
+  top: 200px;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -137,7 +137,7 @@ body {
 }
 
 .project-container:hover .project-title {
-  top: 90px;
+  top: 0px;
 }
 
 .project-button {
@@ -170,7 +170,7 @@ body {
   z-index: 1;
 }
 
-.fade-appear-actiive,
+.fade-appear-active,
 .fade-enter.fade-enter-active {
   opacity: 1;
   transition: opacity 300ms linear 150ms;

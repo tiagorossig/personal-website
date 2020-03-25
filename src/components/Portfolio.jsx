@@ -7,45 +7,65 @@ function Home(props) {
       <div className="center" id="padding-notHome">
         <div className="row">
           <div className="col-lg-6 mb-4">
-            <a href="#">
+            <div class="project-container">
               <img
-                className="card-img-top"
+                className="card-img-top project-img"
                 src="http://placehold.it/700x400"
                 alt=""
               />
-            </a>
+              <p class="project-title">card title</p>
+              <div class="overlay"></div>
+              <div class="project-button">
+                <a href="/"> BUTTON </a>
+              </div>
+            </div>
           </div>
 
           <div className="col-lg-6 mb-4">
-            <a href="#">
+            <div class="project-container">
               <img
-                className="card-img-top"
+                className="card-img-top project-img"
                 src="http://placehold.it/700x400"
                 alt=""
               />
-            </a>
+              <p class="project-title">card title</p>
+              <div class="overlay"></div>
+              <div class="project-button">
+                <a href="/"> BUTTON </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="row">
           <div className="col-lg-6 mb-4">
-            <a href="#">
+            <div class="project-container">
               <img
-                className="card-img-top"
+                className="card-img-top project-img"
                 src="http://placehold.it/700x400"
                 alt=""
               />
-            </a>
+              <p class="project-title">card title</p>
+              <div class="overlay"></div>
+              <div class="project-button">
+                <a href="/"> BUTTON </a>
+              </div>
+            </div>
           </div>
 
           <div className="col-lg-6 mb-4">
-            <a href="#">
+            <div class="project-container">
               <img
-                className="card-img-top"
+                className="card-img-top project-img"
                 src="http://placehold.it/700x400"
                 alt=""
               />
-            </a>
+              <p class="project-title">card title</p>
+              <div class="overlay"></div>
+              <div class="project-button">
+                <a href="/"> BUTTON </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
