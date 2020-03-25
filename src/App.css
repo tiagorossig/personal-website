@@ -30,7 +30,8 @@ body {
 .page {
   min-height: 100vh; /* will cover the 100% of viewport */
   position: relative;
-  padding-bottom: 100px; /* height of your footer */
+  padding-bottom: 100px;
+  /* heightof your footer */
   margin: auto;
   height: 100vh;
   min-height: 500px;
@@ -63,7 +64,7 @@ body {
 }
 
 #padding-notHome {
-  padding-top: 170px;
+  padding-top: 150px;
   padding-bottom: 80px;
 }
 
@@ -105,11 +106,33 @@ body {
   visibility: visible;
 }
 
+#tester {
+  /* background-color: orange; */
+}
+
 .project-container {
-  position: relative;
   background-color: white;
+  display: inline-block;
   width: 100%;
-  padding-top: 56.25%;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./assets/cloudCare.png"); */
+}
+
+.project-container::before {
+  content: "";
+  width: 1px;
+  margin-left: -1px;
+  float: left;
+  height: 0;
+  padding-top: 57.14%;
+}
+.project-container::after {
+  /* to clear float */
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .overlay {
@@ -140,7 +163,7 @@ body {
   width: 100%;
   height: 50%;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1.75vw;
   padding-top: 5%;
   top: 25%;
   text-transform: uppercase;
@@ -149,12 +172,14 @@ body {
   transition: top 0.5s ease;
 }
 
-#projectOne {
-  background-image: url("./assets/cloudCare.png");
-  background-size: contain;
-  background-position: center;
+/* #project-one {
+  display: inline-block;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
-}
+  background-image: url("./assets/cloudCare.png");
+} */
 
 .project-container:hover .project-title {
   top: 0;
