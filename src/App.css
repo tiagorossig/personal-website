@@ -3,6 +3,7 @@
 }
 
 .masthead {
+  margin: auto;
   height: 100vh;
   min-height: 500px;
   background-image: url("./assets/bg.jpg");
@@ -13,6 +14,7 @@
 }
 
 .portfolio {
+  margin: auto;
   position: relative;
   top: 50px;
   height: 100%;
@@ -24,6 +26,7 @@
 }
 
 .notFound {
+  margin: auto;
   height: 100vh;
   min-height: 500px;
   background-size: cover;
@@ -43,4 +46,9 @@
 
 .padding-top {
   padding-top: 10px;
+}
+
+.project-size {
+  height: 350px;
+  object-fit: cover;
 }
