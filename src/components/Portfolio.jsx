@@ -1,7 +1,10 @@
 import React from "react";
 import "../App.css";
 import projectOne from "../assets/cloudCare.png";
+import projectTwo from "../assets/deg.jpg";
 import projectThree from "../assets/fledge.png";
+import { FontAwesomeIcon } from "../../node_modules/@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 function Home(props) {
   return (
@@ -14,23 +17,31 @@ function Home(props) {
               <p class="project-title">Spectrum Internship</p>
               <div class="overlay"></div>
               <div class="project-button">
-                <a href="/"> BUTTON </a>
+                <a className="btn btn-dark" href="/">
+                  <FontAwesomeIcon icon={faCode} />
+                  <b class="button-text"> Code</b>
+                </a>
               </div>
             </div>
           </div>
 
           <div className="col-lg-6 mb-4">
             <div class="project-container">
-              <img
-                className="card-img-top project-img"
-                src={projectOne}
-                alt=""
-              />
-              <p class="project-title">Cloud Care</p>
-              <div class="overlay"></div>
-              <div class="project-button">
-                <a href="/"> BUTTON </a>
-              </div>
+              <a href="/">
+                <img
+                  className="card-img-top project-img"
+                  src={projectOne}
+                  alt=""
+                />
+                <p class="project-title">Cloud Care</p>
+                <div class="overlay"></div>
+                <div class="project-button">
+                  <a className="btn btn-dark disabled" href="/">
+                    <FontAwesomeIcon icon={faCode} />
+                    <b class="button-text"> Code</b>
+                  </a>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -38,31 +49,41 @@ function Home(props) {
         <div className="row">
           <div className="col-lg-6 mb-4">
             <div class="project-container">
-              <img
-                className="card-img-top project-img"
-                src="http://placehold.it/700x400"
-                alt=""
-              />
-              <p class="project-title">card title</p>
-              <div class="overlay"></div>
-              <div class="project-button">
-                <a href="/"> BUTTON </a>
-              </div>
+              <a href="/">
+                <img
+                  className="card-img-top project-img"
+                  src={projectTwo}
+                  alt=""
+                />
+                <p class="project-title">de;graded</p>
+                <div class="overlay"></div>
+                <div class="project-button">
+                  <a className="btn btn-dark" href="/">
+                    <FontAwesomeIcon icon={faCode} />
+                    <b class="button-text"> Code</b>
+                  </a>
+                </div>
+              </a>
             </div>
           </div>
 
           <div className="col-lg-6 mb-4">
             <div class="project-container">
-              <img
-                className="card-img-top project-img"
-                src={projectThree}
-                alt=""
-              />
-              <p class="project-title">Fledgeling</p>
-              <div class="overlay"></div>
-              <div class="project-button">
-                <a href="/"> BUTTON </a>
-              </div>
+              <a href="/">
+                <img
+                  className="card-img-top project-img"
+                  src={projectThree}
+                  alt=""
+                />
+                <p class="project-title">Fledgeling</p>
+                <div class="overlay"></div>
+                <div class="project-button">
+                  <a className="btn btn-dark" href="/">
+                    <FontAwesomeIcon icon={faCode} />
+                    <b class="button-text"> Code</b>
+                  </a>
+                </div>
+              </a>
             </div>
           </div>
         </div>

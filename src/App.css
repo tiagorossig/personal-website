@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 html,
 body {
   height: 100%;
@@ -43,7 +47,6 @@ body {
 .padding-right-left {
   padding-right: 150px;
   padding-left: 150px;
-  background-color: yellow;
 }
 
 .padding-top {
@@ -95,8 +98,10 @@ body {
 
 .project-container {
   position: relative;
-  width: 400 px;
+  width: 475px;
+
   height: 300px;
+  background-color: white;
 }
 
 .overlay {
@@ -116,20 +121,19 @@ body {
 
 .project-img {
   position: absolute;
-  width: 400px;
-  height: 300px;
-  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .project-title {
-  position: absolute;
-  width: 470px;
-  left: 0;
-  right: 105px;
+  margin: auto;
   top: 125px;
+  position: relative;
+  text-align: center;
+  width: 80%;
+  height: 80%;
   font-weight: 700;
   font-size: 30px;
-  text-align: center;
   text-transform: uppercase;
   color: black;
   z-index: 1;
@@ -139,24 +143,24 @@ body {
 .project-container:hover .project-title {
   top: 12px;
   color: white;
+  text-decoration: none;
 }
 
 .project-button {
   position: absolute;
-  width: 500px;
+  width: 100%;
   left: 0;
-  top: 180px;
+  bottom: 12px;
   text-align: center;
+
   opacity: 0;
   transition: opacity 0.35s ease;
 }
 
 .project-button a {
-  width: 200px;
-  padding: 12px 48px;
+  width: 150px;
+  padding: 12px;
   text-align: center;
-  color: white;
-  border: solid 2px white;
   z-index: 1;
 }
 
@@ -184,4 +188,8 @@ body {
 .fade-exit.fade-exit-active {
   opacity: 0;
   transition: opacity 300ms linear 150ms;
+}
+
+.button-text {
+  color: white;
 }
