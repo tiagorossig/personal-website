@@ -107,17 +107,34 @@ body {
 }
 
 #tester {
-  /* background-color: orange; */
+  background-color: orange;
 }
 
 .project-container {
   background-color: white;
   display: inline-block;
   width: 100%;
-  /* background-size: cover;
+}
+
+#project-one {
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("./assets/cloudCare.png"); */
+  background-image: url("./assets/cloudCare.png");
+}
+
+#project-two {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./assets/deg.jpg");
+}
+
+#project-three {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./assets/fledge.png");
 }
 
 .project-container::before {
@@ -157,7 +174,8 @@ body {
 }
 
 .project-title {
-  position: absolute;
+  pointer-events: none;
+  position: relative;
   text-align: center;
   /* background-color: orange; */
   width: 100%;
@@ -167,23 +185,15 @@ body {
   padding-top: 5%;
   top: 25%;
   text-transform: uppercase;
-  color: black;
+  color: rgba(0, 0, 0, 0);
   z-index: 1;
   transition: top 0.5s ease;
 }
 
-/* #project-one {
-  display: inline-block;
-  width: 100%;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-image: url("./assets/cloudCare.png");
-} */
-
 .project-container:hover .project-title {
   top: 0;
   color: white;
+  text-decoration: none;
 }
 
 .project-button {
