@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.97dfed21.chunk.css",
-    "main.js": "/static/js/main.6989c2ec.chunk.js",
-    "main.js.map": "/static/js/main.6989c2ec.chunk.js.map",
+    "main.css": "/static/css/main.6f2f6970.chunk.css",
+    "main.js": "/static/js/main.9e2cfb3d.chunk.js",
+    "main.js.map": "/static/js/main.9e2cfb3d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9089ee33.js",
     "runtime-main.js.map": "/static/js/runtime-main.9089ee33.js.map",
-    "static/css/2.89f067aa.chunk.css": "/static/css/2.89f067aa.chunk.css",
-    "static/js/2.e2aaba56.chunk.js": "/static/js/2.e2aaba56.chunk.js",
-    "static/js/2.e2aaba56.chunk.js.map": "/static/js/2.e2aaba56.chunk.js.map",
+    "static/css/2.544bf100.chunk.css": "/static/css/2.544bf100.chunk.css",
+    "static/js/2.bf0acecf.chunk.js": "/static/js/2.bf0acecf.chunk.js",
+    "static/js/2.bf0acecf.chunk.js.map": "/static/js/2.bf0acecf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad70f53d081827704619fe8071cc7781.js": "/precache-manifest.ad70f53d081827704619fe8071cc7781.js",
+    "precache-manifest.1a540a305c4d0130ff7ca6de5d63988b.js": "/precache-manifest.1a540a305c4d0130ff7ca6de5d63988b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.89f067aa.chunk.css.map": "/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.97dfed21.chunk.css.map": "/static/css/main.97dfed21.chunk.css.map",
-    "static/js/2.e2aaba56.chunk.js.LICENSE.txt": "/static/js/2.e2aaba56.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/bg.be8a4a7a.jpg"
+    "static/css/2.544bf100.chunk.css.map": "/static/css/2.544bf100.chunk.css.map",
+    "static/css/main.6f2f6970.chunk.css.map": "/static/css/main.6f2f6970.chunk.css.map",
+    "static/js/2.bf0acecf.chunk.js.LICENSE.txt": "/static/js/2.bf0acecf.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/bg.be8a4a7a.jpg",
+    "static/media/Tiago_Grimaldi_Rossi_Resume.pdf": "/static/media/Tiago_Grimaldi_Rossi_Resume.c74d6164.pdf",
+    "static/media/cloudCare.png": "/static/media/cloudCare.54b3df86.png",
+    "static/media/deg.jpg": "/static/media/deg.81f48adb.jpg",
+    "static/media/fledge.png": "/static/media/fledge.de3d342f.png",
+    "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.9089ee33.js",
-    "static/css/2.89f067aa.chunk.css",
-    "static/js/2.e2aaba56.chunk.js",
-    "static/css/main.97dfed21.chunk.css",
-    "static/js/main.6989c2ec.chunk.js"
+    "static/css/2.544bf100.chunk.css",
+    "static/js/2.bf0acecf.chunk.js",
+    "static/css/main.6f2f6970.chunk.css",
+    "static/js/main.9e2cfb3d.chunk.js"
   ]
 }
