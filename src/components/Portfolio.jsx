@@ -27,7 +27,7 @@ function Portfolio(props) {
                     src={projectOne}
                     alt=""
                   />
-                  <p className="text">View Project</p>
+                  <p className="text">View project</p>
                 </div>
               </a>
             </div>
@@ -46,7 +46,7 @@ function Portfolio(props) {
           {/* Project Two */}
           <div className="row">
             <div className="col-md-5">
-              <a href="/">
+              <a href="https://tiagoros.itch.io/degraded">
                 <div id="wrapper">
                   <img
                     className="img-fluid rounded mb-3 mb-md-0 project hover"
@@ -60,7 +60,10 @@ function Portfolio(props) {
             <div className="col-md-5">
               <h3>de;graded</h3>
               <p>Project 2.</p>
-              <a className="btn btn-dark" href="/">
+              <a
+                className="btn btn-dark"
+                href="https://github.com/tiagorossig/repairRobot-"
+              >
                 <FontAwesomeIcon icon={faCode} />
                 <b> Code</b>
               </a>
@@ -70,9 +73,9 @@ function Portfolio(props) {
           <hr />
 
           {/* Project Three */}
-          <div className="row">
+          <div className="row  padding-bottom">
             <div className="col-md-5">
-              <a href="/">
+              <a href="https://pingwoh.itch.io/fledgeling">
                 <div id="wrapper">
                   <img
                     className="img-fluid rounded mb-3 mb-md-0 project hover"
@@ -86,7 +89,10 @@ function Portfolio(props) {
             <div className="col-md-5">
               <h3>Fledgling</h3>
               <p>Project 3.</p>
-              <a className="btn btn-dark" href="/">
+              <a
+                className="btn btn-dark"
+                href="https://github.com/tiagorossig/flyingHome"
+              >
                 <FontAwesomeIcon icon={faCode} />
                 <b> Code</b>
               </a>

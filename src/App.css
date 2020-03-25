@@ -48,6 +48,10 @@
   padding-top: 10px;
 }
 
+.padding-bottom {
+  padding-bottom: 75px;
+}
+
 .project {
   -webkit-filter: brightness(100%);
   -moz-filter: brightness(100%);
@@ -76,9 +80,14 @@
   left: 36%;
   visibility: hidden;
   color: white;
-  font-size: 35;
 }
 
 #wrapper:hover .text {
   visibility: visible;
+}
+
+#sticky-footer {
+  position: relative;
+  flex-shrink: none;
+  width: 100%;
 }
