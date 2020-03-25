@@ -51,7 +51,7 @@ body {
 }
 
 #padding-notHome {
-  padding-top: 80px;
+  padding-top: 200px;
   padding-bottom: 80px;
 }
 
@@ -91,13 +91,6 @@ body {
 
 #wrapper:hover .text {
   visibility: visible;
-}
-
-#sticky-footer {
-  flex-shrink: 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .project-container {
