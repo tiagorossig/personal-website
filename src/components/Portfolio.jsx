@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "../../node_modules/@fortawesome/react-fontaweso
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import projectOne from "../assets/cloudCare.jpg";
 import projectTwo from "../assets/degraded.jpg";
+import projectThree from "../assets/fledge.jpg";
 import "../App.css";
 
 function Portfolio(props) {
@@ -21,7 +22,7 @@ function Portfolio(props) {
             <div className="col-md-5">
               <a href="/">
                 <img
-                  className="img-fluid rounded mb-3 mb-md-0 project-size"
+                  className="img-fluid rounded mb-3 mb-md-0 project"
                   src={projectOne}
                   alt=""
                 />
@@ -44,7 +45,7 @@ function Portfolio(props) {
             <div className="col-md-5">
               <a href="/">
                 <img
-                  className="img-fluid rounded mb-3 mb-md-0 project-size"
+                  className="img-fluid rounded mb-3 mb-md-0 project"
                   src={projectTwo}
                   alt=""
                 />
@@ -67,8 +68,8 @@ function Portfolio(props) {
             <div className="col-md-5">
               <a href="/">
                 <img
-                  className="img-fluid rounded mb-3 mb-md-0 project-size"
-                  src="http://placehold.it/350x350"
+                  className="img-fluid rounded mb-3 mb-md-0 project"
+                  src={projectThree}
                   alt=""
                 />
               </a>
