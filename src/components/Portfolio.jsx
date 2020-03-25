@@ -49,7 +49,7 @@ function Home(props) {
         <div className="row">
           <div className="col-lg-6 mb-4">
             <div class="project-container">
-              <a href="/">
+              <a href="https://tiagoros.itch.io/degraded">
                 <img
                   className="card-img-top project-img"
                   src={projectTwo}
@@ -58,7 +58,10 @@ function Home(props) {
                 <p class="project-title">de;graded</p>
                 <div class="overlay"></div>
                 <div class="project-button">
-                  <a className="btn btn-dark" href="/">
+                  <a
+                    className="btn btn-dark"
+                    href="https://github.com/tiagorossig/repairRobot-"
+                  >
                     <FontAwesomeIcon icon={faCode} />
                     <b class="button-text"> Code</b>
                   </a>
@@ -69,7 +72,7 @@ function Home(props) {
 
           <div className="col-lg-6 mb-4">
             <div class="project-container">
-              <a href="/">
+              <a href="https://pingwoh.itch.io/fledgeling">
                 <img
                   className="card-img-top project-img"
                   src={projectThree}
@@ -78,7 +81,10 @@ function Home(props) {
                 <p class="project-title">Fledgeling</p>
                 <div class="overlay"></div>
                 <div class="project-button">
-                  <a className="btn btn-dark" href="/">
+                  <a
+                    className="btn btn-dark"
+                    href="https://github.com/tiagorossig/flyingHome"
+                  >
                     <FontAwesomeIcon icon={faCode} />
                     <b class="button-text"> Code</b>
                   </a>
