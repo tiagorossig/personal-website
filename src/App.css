@@ -13,6 +13,16 @@
   font-family: "Montserrat";
 }
 
+.porfolioBG {
+  margin: auto;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .portfolio {
   margin: auto;
   position: relative;
