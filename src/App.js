@@ -12,6 +12,10 @@ function App() {
   return (
     <React.Fragment>
       <NavBar />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+      ></meta>
       <div className="page">
         <Route
           render={({ location }) => (
@@ -28,6 +32,7 @@ function App() {
           )}
         />
       </div>
+
       {/* <Footer /> */}
     </React.Fragment>
   );

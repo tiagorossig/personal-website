@@ -24,14 +24,13 @@ body {
 
 .center {
   margin: auto;
-  width: 50%;
+  width: 1000px;
+  max-width: 90%;
 }
 
 .page {
   min-height: 100vh; /* will cover the 100% of viewport */
   position: relative;
-  padding-bottom: 100px;
-  /* heightof your footer */
   margin: auto;
   height: 100vh;
   min-height: 500px;
@@ -65,7 +64,6 @@ body {
 
 #padding-notHome {
   padding-top: 150px;
-  padding-bottom: 80px;
 }
 
 .padding-bottom {
@@ -112,8 +110,8 @@ body {
 
 .project-container {
   background-color: white;
-  display: inline-block;
-  width: 100%;
+  width: 500px;
+  height: 300px;
 }
 
 #project-one {
@@ -175,43 +173,49 @@ body {
 
 .project-title {
   pointer-events: none;
-  position: relative;
+  position: absolute;
   text-align: center;
-  /* background-color: orange; */
   width: 100%;
   height: 50%;
   font-weight: 700;
-  font-size: 1.75vw;
-  padding-top: 5%;
-  top: 25%;
+  font-size: 30px;
+  padding-top: 2%;
+  padding-right: 3%;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0);
   z-index: 1;
-  transition: top 0.5s ease;
 }
 
 .project-container:hover .project-title {
-  top: 0;
   color: white;
-  text-decoration: none;
+}
+
+.project-des {
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 12%;
+  padding-right: 5%;
+  z-index: 1;
+}
+
+.project-container:hover .project-des {
+  color: white;
 }
 
 .project-button {
-  margin: auto;
-  position: relative;
-  text-align: center;
-  width: 4vw;
-  left: 0;
-  bottom: 0.3vw;
+  position: absolute;
   opacity: 0;
   transition: opacity 0.35s ease;
-}
-
-.project-button a {
-  width: 150px;
-  padding: 12px;
+  width: 100%;
   text-align: center;
-  z-index: 1;
+  bottom: 2%;
+  padding-right: 3%;
 }
 
 .project-container:hover .project-button {
