@@ -19,6 +19,7 @@ function App() {
           <Redirect to="/not-found" />
         </Switch>
       </div>
+      <Footer />
     </div>
   );
 }

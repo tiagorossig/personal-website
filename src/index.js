@@ -6,12 +6,10 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
-import Footer from "./components/Footer";
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <Footer />
   </BrowserRouter>,
   document.getElementById("root")
 );

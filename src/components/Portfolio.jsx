@@ -28,15 +28,16 @@ function Portfolio(props) {
                     alt=""
                   />
                   <p className="text">View project</p>
+
+                  <div className="text">
+                    <h3>CloudCare</h3>
+                    <p>Project 1.</p>
+                    <a className="btn btn-dark disabled" href="/">
+                      <FontAwesomeIcon icon={faCode} />
+                      <b> Code</b>
+                    </a>
+                  </div>
                 </div>
-              </a>
-            </div>
-            <div className="col-md-5">
-              <h3>CloudCare</h3>
-              <p>Project 1.</p>
-              <a className="btn btn-dark disabled" href="/">
-                <FontAwesomeIcon icon={faCode} />
-                <b> Code</b>
               </a>
             </div>
           </div>
@@ -54,18 +55,18 @@ function Portfolio(props) {
                     alt=""
                   />
                   <p className="text">View Project</p>
+                  <div className="text">
+                    <h3>de;graded</h3>
+                    <p>Project 2.</p>
+                    <a
+                      className="btn btn-dark"
+                      href="https://github.com/tiagorossig/repairRobot-"
+                    >
+                      <FontAwesomeIcon icon={faCode} />
+                      <b> Code</b>
+                    </a>
+                  </div>
                 </div>
-              </a>
-            </div>
-            <div className="col-md-5">
-              <h3>de;graded</h3>
-              <p>Project 2.</p>
-              <a
-                className="btn btn-dark"
-                href="https://github.com/tiagorossig/repairRobot-"
-              >
-                <FontAwesomeIcon icon={faCode} />
-                <b> Code</b>
               </a>
             </div>
           </div>
@@ -96,6 +97,24 @@ function Portfolio(props) {
                 <FontAwesomeIcon icon={faCode} />
                 <b> Code</b>
               </a>
+            </div>
+          </div>
+
+          <hr />
+
+          {/* Project Three */}
+          <div className="row padding-bottom">
+            <div class="project-container">
+              <img
+                class="project-img"
+                src="https://images.unsplash.com/photo-1488628075628-e876f502d67a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg="
+                alt=""
+              />
+              <p class="project-title">card title</p>
+              <div class="overlay"></div>
+              <div class="project-button">
+                <a href="/"> BUTTON </a>
+              </div>
             </div>
           </div>
         </div>
