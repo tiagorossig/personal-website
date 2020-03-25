@@ -6,21 +6,30 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import NotFound from "./components/NotFound";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <NavBar />
-      <div className="content">
-        <Switch>
-          <Route path="/my-work" component={Portfolio} />
-          <Route path="/not-found" component={NotFound} />
-          <Route path="/" exact component={Home} />
-          <Redirect to="/not-found" />
-        </Switch>
+      <div className="page-project">
+        <Route
+          render={({ location }) => (
+            <TransitionGroup>
+              <CSSTransition timeout={450} classNames="fade" key={location.key}>
+                <Switch location={location}>
+                  <Route path="/my-work" component={Portfolio} />
+                  <Route path="/not-found" component={NotFound} />
+                  <Route path="/" exact component={Home} />
+                  <Redirect to="/not-found" />
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          )}
+        />
       </div>
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 

@@ -24,7 +24,6 @@ function Home(props) {
             <li className="nav-item active">
               <Link className="nav-link" to="/">
                 Home
-                <span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item">

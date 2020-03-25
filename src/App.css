@@ -2,37 +2,29 @@
   text-align: center;
 }
 
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
 .masthead {
   margin: auto;
   height: 100vh;
   min-height: 500px;
-  background-image: url("./assets/bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: "Montserrat";
-}
-
-.porfolioBG {
-  margin: auto;
-  height: 100vh;
-  min-height: 500px;
-  background-image: url("./assets/bg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.portfolio {
-  margin: auto;
-  position: relative;
-  top: 50px;
-  height: 100%;
 }
 
 .center {
   margin: auto;
   width: 50%;
+}
+
+.page {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
 }
 
 .notFound {
@@ -56,6 +48,11 @@
 
 .padding-top {
   padding-top: 10px;
+}
+
+#padding-notHome {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .padding-bottom {
@@ -97,8 +94,9 @@
 }
 
 #sticky-footer {
-  position: relative;
-  flex-shrink: none;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
   width: 100%;
 }
 
@@ -170,4 +168,26 @@
 
 .project-container:hover .project-button {
   opacity: 1;
+}
+
+/* CSS Transition animations */
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-actiive,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear 150ms;
 }
