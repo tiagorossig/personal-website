@@ -17,15 +17,18 @@ function Portfolio(props) {
 
           <hr />
 
-          {/* Project Two */}
+          {/* Project One*/}
           <div className="row">
             <div className="col-md-5">
               <a href="/">
-                <img
-                  className="img-fluid rounded mb-3 mb-md-0 project"
-                  src={projectOne}
-                  alt=""
-                />
+                <div id="wrapper">
+                  <img
+                    className="img-fluid rounded mb-3 mb-md-0 project hover"
+                    src={projectOne}
+                    alt=""
+                  />
+                  <p className="text">View Project</p>
+                </div>
               </a>
             </div>
             <div className="col-md-5">
@@ -44,11 +47,14 @@ function Portfolio(props) {
           <div className="row">
             <div className="col-md-5">
               <a href="/">
-                <img
-                  className="img-fluid rounded mb-3 mb-md-0 project"
-                  src={projectTwo}
-                  alt=""
-                />
+                <div id="wrapper">
+                  <img
+                    className="img-fluid rounded mb-3 mb-md-0 project hover"
+                    src={projectTwo}
+                    alt=""
+                  />
+                  <p className="text">View Project</p>
+                </div>
               </a>
             </div>
             <div className="col-md-5">
@@ -67,11 +73,14 @@ function Portfolio(props) {
           <div className="row">
             <div className="col-md-5">
               <a href="/">
-                <img
-                  className="img-fluid rounded mb-3 mb-md-0 project"
-                  src={projectThree}
-                  alt=""
-                />
+                <div id="wrapper">
+                  <img
+                    className="img-fluid rounded mb-3 mb-md-0 project hover"
+                    src={projectThree}
+                    alt=""
+                  />
+                  <p className="text">View Project</p>
+                </div>
               </a>
             </div>
             <div className="col-md-5">

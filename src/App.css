@@ -62,4 +62,23 @@
   -o-filter: brightness(20%);
   -ms-filter: brightness(20%);
   filter: brightness(20%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#wrapper .text {
+  pointer-events: none;
+  position: absolute;
+  bottom: 45%;
+  left: 36%;
+  visibility: hidden;
+  color: white;
+  font-size: 35;
+}
+
+#wrapper:hover .text {
+  visibility: visible;
 }
