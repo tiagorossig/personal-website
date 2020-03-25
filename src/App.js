@@ -3,8 +3,8 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import PortfolioS from "./components/PortfolioS";
 import NotFound from "./components/NotFound";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <React.Fragment>
       <NavBar />
-      <div className="page-project">
+      <div className="page">
         <Route
           render={({ location }) => (
             <TransitionGroup>
@@ -28,7 +28,7 @@ function App() {
           )}
         />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }

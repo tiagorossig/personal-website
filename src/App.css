@@ -6,7 +6,11 @@ a {
   text-decoration: none !important;
 }
 
-html,
+* {
+  box-sizing: border-box;
+}
+
+*/ html,
 body {
   height: 100%;
   position: relative;
@@ -25,10 +29,15 @@ body {
 
 .page {
   min-height: 100vh; /* will cover the 100% of viewport */
-  overflow: hidden;
-  display: block;
   position: relative;
   padding-bottom: 100px; /* height of your footer */
+  margin: auto;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .notFound {
@@ -98,10 +107,9 @@ body {
 
 .project-container {
   position: relative;
-  width: 475px;
-
-  height: 300px;
   background-color: white;
+  width: 100%;
+  padding-top: 56.25%;
 }
 
 .overlay {
@@ -126,33 +134,40 @@ body {
 }
 
 .project-title {
-  margin: auto;
-  top: 125px;
-  position: relative;
+  position: absolute;
   text-align: center;
-  width: 80%;
-  height: 80%;
+  /* background-color: orange; */
+  width: 100%;
+  height: 50%;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1em;
+  padding-top: 5%;
+  top: 25%;
   text-transform: uppercase;
   color: black;
   z-index: 1;
   transition: top 0.5s ease;
 }
 
+#projectOne {
+  background-image: url("./assets/cloudCare.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .project-container:hover .project-title {
-  top: 12px;
+  top: 0;
   color: white;
-  text-decoration: none;
 }
 
 .project-button {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 12px;
+  margin: auto;
+  position: relative;
   text-align: center;
-
+  width: 4vw;
+  left: 0;
+  bottom: 0.3vw;
   opacity: 0;
   transition: opacity 0.35s ease;
 }

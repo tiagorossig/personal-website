@@ -2,12 +2,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "../../node_modules/@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-import projectOne from "../assets/cloudCare.jpg";
-import projectTwo from "../assets/degraded.jpg";
-import projectThree from "../assets/fledge.jpg";
+import projectOne from "../assets/cloudCare.png";
+import projectTwo from "../assets/deg.jpg";
+import projectThree from "../assets/fledge.png";
 import "../App.css";
 
-function Portfolio(props) {
+function PortfolioS(props) {
   return (
     <header className="portfolioBG">
       <div className="center">
@@ -117,4 +117,4 @@ function Portfolio(props) {
   );
 }
 
-export default Portfolio;
+export default PortfolioS;

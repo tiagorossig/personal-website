@@ -5,16 +5,17 @@ body {
     sans-serif, "Montserrat";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: auto;
-  height: 100vh;
 
+  /* margin: auto;
+  height: 100vh;
   min-height: 500px;
   background-image: url("./assets/bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 60px;
-  /* overflow: hidden; */
+  margin-bottom: 60px; */
+
+  overflow-y: scroll;
 }
 
 code {
