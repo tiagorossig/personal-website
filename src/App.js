@@ -12,11 +12,7 @@ function App() {
   return (
     <React.Fragment>
       <NavBar />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1"
-      ></meta>
-      <div className="page">
+      <div className="back page">
         <Route
           render={({ location }) => (
             <TransitionGroup>

@@ -11,7 +11,7 @@ function Home(props) {
           <div className="col-12 text-center">
             <h1 className="font-weight-light">Tiago Grimaldi Rossi</h1>
             <table align="center">
-              <tr align>
+              <tbody align>
                 <td className="padding-right">
                   <SocialIcon url="https://www.linkedin.com/in/tiagogrossi/" />
                 </td>
@@ -21,7 +21,7 @@ function Home(props) {
                 <td className="padding-right">
                   <SocialIcon url="https://github.com/tiagorossig" />
                 </td>
-              </tr>
+              </tbody>
             </table>
             <div className="padding-top">
               <a href={resume} download>
