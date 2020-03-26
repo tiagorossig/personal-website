@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import NotFound from "./components/NotFound";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import Particles from "react-particles-js";
 
 function App() {
   return (

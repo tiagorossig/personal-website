@@ -11,7 +11,7 @@ a {
 }
 
 html {
-  background-image: url("./assets/bg.jpg");
+  background-image: url("./assets/bgMaybe.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ html {
   margin: auto;
   min-height: 100vh;
   height: 100%;
-  background-image: url("./assets/bg.jpg");
+  background-image: url("./assets/bgMaybe.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
