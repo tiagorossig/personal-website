@@ -4,7 +4,6 @@ import "./App.css";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
-import PortfolioS from "./components/PortfolioS";
 import NotFound from "./components/NotFound";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
