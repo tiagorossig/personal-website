@@ -11,17 +11,15 @@ function Home(props) {
           <div className="col-12 text-center">
             <h1 className="font-weight-light">Tiago Grimaldi Rossi</h1>
             <table align="center">
-              <tbody align>
-                <td className="padding-right">
-                  <SocialIcon url="https://www.linkedin.com/in/tiagogrossi/" />
-                </td>
-                <td className="padding-right">
-                  <SocialIcon url="mailto:tiagogrimaldirossi@gmail.com" />
-                </td>
-                <td className="padding-right">
-                  <SocialIcon url="https://github.com/tiagorossig" />
-                </td>
-              </tbody>
+              <td className="">
+                <SocialIcon url="https://www.linkedin.com/in/tiagogrossi/" />
+              </td>
+              <td className="padding-right-left">
+                <SocialIcon url="mailto:tiagogrimaldirossi@gmail.com" />
+              </td>
+              <td className="">
+                <SocialIcon url="https://github.com/tiagorossig" />
+              </td>
             </table>
             <div className="padding-top">
               <a href={resume} download>

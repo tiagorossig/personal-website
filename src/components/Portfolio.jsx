@@ -10,7 +10,7 @@ function Portfolio(props) {
       <div className="center" id="padding-notHome">
         <div className="row">
           <div className="col-lg-6 project-container" id="tester">
-            <p className="project-title">Spectrum Internship</p>
+            <p className="project-title">Spectrum Intern</p>
             <p className="project-des">
               - I did this and that and this and that and this and that and this
               and that and this and that and this and that and this and that and

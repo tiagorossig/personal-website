@@ -7,9 +7,9 @@ function Home(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           Tiago Grimaldi Rossi
-        </a>
+        </Link>
         {/* Toggler button */}
         <button
           className="navbar-toggler"
