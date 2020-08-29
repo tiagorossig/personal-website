@@ -31,8 +31,8 @@ function Home(props) {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/my-work">
-                My Work
+              <Link className="nav-link" to="/about-me">
+                About Me
               </Link>
             </li>
           </ul>

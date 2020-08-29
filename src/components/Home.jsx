@@ -1,7 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import "../App.css";
-import resume from "../assets/Tiago_Grimaldi_Rossi_Resume.pdf";
+import resume from "../assets/TiagoG_Resume2021_FINAL.pdf";
 
 function Home(props) {
   return (

@@ -11,7 +11,7 @@ a {
 }
 
 html {
-  background-image: url("./assets/bgMaybe.jpg");
+  background-image: url("./assets/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,6 +19,15 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.particles {
+  position: fixed;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .masthead {
@@ -38,7 +47,8 @@ html {
   margin: auto;
   min-height: 100vh;
   height: 100%;
-  background-image: url("./assets/bgMaybe.jpg");
+  background-color: black;
+  background-image: url("./assets/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,6 +56,10 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.content-container {
+  position: absolute;
 }
 
 .notFound {
@@ -78,157 +92,6 @@ html {
 
 .padding-bottom {
   padding-bottom: 75px;
-}
-
-.project {
-  -webkit-filter: brightness(100%);
-  -moz-filter: brightness(100%);
-  -o-filter: brightness(100%);
-  -ms-filter: brightness(100%);
-  filter: brightness(100%);
-}
-
-.project:hover {
-  -webkit-filter: brightness(20%);
-  -moz-filter: brightness(20%);
-  -o-filter: brightness(20%);
-  -ms-filter: brightness(20%);
-  filter: brightness(20%);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-#wrapper .text {
-  pointer-events: none;
-  position: absolute;
-  bottom: 45%;
-  left: 36%;
-  visibility: hidden;
-  color: white;
-}
-
-#wrapper:hover .text {
-  visibility: visible;
-}
-
-#tester {
-  background-color: orange;
-}
-
-.project-container {
-  background-color: white;
-  width: 500px;
-  height: 300px;
-}
-
-#project-one {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("./assets/cloudCare.png");
-}
-
-#project-two {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("./assets/deg.jpg");
-}
-
-#project-three {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("./assets/fledge.png");
-}
-
-.project-container::before {
-  content: "";
-  width: 1px;
-  margin-left: -1px;
-  float: left;
-  height: 0;
-  padding-top: 57.14%;
-}
-.project-container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.5s ease;
-}
-
-.project-container:hover .overlay {
-  display: block;
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.project-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.project-title {
-  pointer-events: none;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  height: 50%;
-  font-weight: 700;
-  font-size: 30px;
-  padding-top: 2%;
-  padding-right: 3%;
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, 0);
-  z-index: 1;
-}
-
-.project-container:hover .project-title {
-  color: white;
-}
-
-.project-des {
-  pointer-events: none;
-  color: rgba(0, 0, 0, 0);
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  height: 50%;
-  font-weight: 400;
-  font-size: 20px;
-  padding-top: 14%;
-  padding-right: 5%;
-  z-index: 1;
-}
-
-.project-container:hover .project-des {
-  color: white;
-}
-
-.project-button {
-  position: absolute;
-  opacity: 0;
-  transition: opacity 0.35s ease;
-  width: 100%;
-  text-align: center;
-  bottom: 2%;
-  padding-right: 3%;
-}
-
-.project-container:hover .project-button {
-  opacity: 1;
 }
 
 /* CSS Transition animations */
