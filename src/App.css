@@ -22,15 +22,8 @@ html {
 }
 
 .heading {
-  font-weight: 700;
+  font-weight: 600;
 }
-.subheading {
-  font-weight: 300;
-}
-
-/* #childScroll {
-  overflow-y: scroll;
-} */
 
 .page {
   position: relative;
@@ -70,67 +63,26 @@ html {
   padding-top: 10px;
 }
 
-.tempTest {
+.padding-navBar {
   padding-top: 60px;
 }
 
-.test {
-  margin-left: auto;
-  margin-right: auto;
+.padding-tiago {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
+
 /* AboutMe */
-#table_id {
-  display: block;
-}
-
-#table_id td {
-  display: inline-block;
-}
-
-td {
-  /* background: green; */
-}
-
-.frame {
-  position: relative;
-  height: 100%;
-}
-
 .oval {
-  /* position: absolute; */
   width: 525px;
   height: 700px;
-  background: #a84909;
   border-radius: 50%;
-  top: 50%;
-  left: 15%;
-  margin-right: 150px;
-  margin-bottom: 50px;
-  /* margin-top: calc(-19%); */
+  display: block;
+  margin: auto;
 }
 
 .aboutText {
-  /* position: absolute; */
-  /* background: #a84909; */
-  /* background-color: pink; */
   font-family: "Montserrat", sans-serif;
-  margin-left: 0px;
-  width: 600px;
-  height: 500px;
-}
-
-.tableContainer1 {
-  /* background-color: orange; */
-  height: 100%;
-  width: 100%;
-}
-
-.tableContainer2 {
-  position: absolute;
-  /* background-color: yellow; */
-  margin-top: calc(-20%);
-  top: 50%;
-  left: 10%;
 }
 
 /* CSS Transition animations */
