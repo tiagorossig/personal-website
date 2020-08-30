@@ -21,8 +21,11 @@ html {
   min-height: 500px;
 }
 
-body {
-  /* overflow: hidden; */
+.heading {
+  font-weight: 700;
+}
+.subheading {
+  font-weight: 300;
 }
 
 /* #childScroll {
@@ -110,6 +113,7 @@ td {
   /* position: absolute; */
   /* background: #a84909; */
   /* background-color: pink; */
+  font-family: "Montserrat", sans-serif;
   margin-left: 0px;
   width: 600px;
   height: 500px;
