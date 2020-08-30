@@ -11,14 +11,8 @@ a {
 }
 
 html {
-  background-image: url("./assets/bg.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .masthead {
@@ -27,18 +21,19 @@ html {
   min-height: 500px;
 }
 
-.center {
-  margin: auto;
-  width: 1000px;
-  max-width: 80%;
+body {
+  /* overflow: hidden; */
 }
+
+/* #childScroll {
+  overflow-y: scroll;
+} */
 
 .page {
   position: relative;
   margin: auto;
   min-height: 100vh;
   height: 100%;
-  background-color: black;
   background-image: url("./assets/bg.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -72,13 +67,66 @@ html {
   padding-top: 10px;
 }
 
-#padding-notHome {
-  padding-top: 150px;
-  padding-bottom: 75px;
+.tempTest {
+  padding-top: 60px;
 }
 
-.padding-bottom {
-  padding-bottom: 75px;
+.test {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* AboutMe */
+#table_id {
+  display: block;
+}
+
+#table_id td {
+  display: inline-block;
+}
+
+td {
+  /* background: green; */
+}
+
+.frame {
+  position: relative;
+  height: 100%;
+}
+
+.oval {
+  /* position: absolute; */
+  width: 525px;
+  height: 700px;
+  background: #a84909;
+  border-radius: 50%;
+  top: 50%;
+  left: 15%;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  /* margin-top: calc(-19%); */
+}
+
+.aboutText {
+  /* position: absolute; */
+  /* background: #a84909; */
+  /* background-color: pink; */
+  margin-left: 0px;
+  width: 600px;
+  height: 500px;
+}
+
+.tableContainer1 {
+  /* background-color: orange; */
+  height: 100%;
+  width: 100%;
+}
+
+.tableContainer2 {
+  position: absolute;
+  /* background-color: yellow; */
+  margin-top: calc(-20%);
+  top: 50%;
+  left: 10%;
 }
 
 /* CSS Transition animations */
