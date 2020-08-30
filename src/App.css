@@ -21,15 +21,6 @@ html {
   background-size: cover;
 }
 
-.particles {
-  position: fixed;
-  right: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-
 .masthead {
   margin: auto;
   height: 100vh;
@@ -56,10 +47,6 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.content-container {
-  position: absolute;
 }
 
 .notFound {
