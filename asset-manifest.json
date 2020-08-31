@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7240ece.chunk.css",
+    "main.css": "/static/css/main.4e4e7ce4.chunk.css",
     "main.js": "/static/js/main.af6f257c.chunk.js",
     "main.js.map": "/static/js/main.af6f257c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9089ee33.js",
@@ -9,10 +9,10 @@
     "static/js/2.974d5ce4.chunk.js": "/static/js/2.974d5ce4.chunk.js",
     "static/js/2.974d5ce4.chunk.js.map": "/static/js/2.974d5ce4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.063cdf6b9649b4164a7c93a02d9f27f5.js": "/precache-manifest.063cdf6b9649b4164a7c93a02d9f27f5.js",
+    "precache-manifest.e1987c53bf8785e18240f4769a131736.js": "/precache-manifest.e1987c53bf8785e18240f4769a131736.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.544bf100.chunk.css.map": "/static/css/2.544bf100.chunk.css.map",
-    "static/css/main.a7240ece.chunk.css.map": "/static/css/main.a7240ece.chunk.css.map",
+    "static/css/main.4e4e7ce4.chunk.css.map": "/static/css/main.4e4e7ce4.chunk.css.map",
     "static/js/2.974d5ce4.chunk.js.LICENSE.txt": "/static/js/2.974d5ce4.chunk.js.LICENSE.txt",
     "static/media/TiagoG_Resume2021_FINAL.pdf": "/static/media/TiagoG_Resume2021_FINAL.d3f56d22.pdf",
     "static/media/App.css": "/static/media/bg.5dc94ad6.jpg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.9089ee33.js",
     "static/css/2.544bf100.chunk.css",
     "static/js/2.974d5ce4.chunk.js",
-    "static/css/main.a7240ece.chunk.css",
+    "static/css/main.4e4e7ce4.chunk.css",
     "static/js/main.af6f257c.chunk.js"
   ]
 }
