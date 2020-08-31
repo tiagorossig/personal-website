@@ -1,55 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a795986d9425f9541f5672d0391ca83",
+    "revision": "e20987a82ca4eb9d237ccc753a1bc0d3",
     "url": "/index.html"
   },
   {
-    "revision": "25c5a30f47842736c151",
+    "revision": "645d9509218f9c530eae",
     "url": "/static/css/2.544bf100.chunk.css"
   },
   {
-    "revision": "e563dbb0c862691b68d9",
-    "url": "/static/css/main.a60c7091.chunk.css"
+    "revision": "f26d0ffc2c85bbaa51b6",
+    "url": "/static/css/main.a7240ece.chunk.css"
   },
   {
-    "revision": "25c5a30f47842736c151",
-    "url": "/static/js/2.b9ba2cf4.chunk.js"
+    "revision": "645d9509218f9c530eae",
+    "url": "/static/js/2.974d5ce4.chunk.js"
   },
   {
     "revision": "150e7ebf1b16402b62fb665d1a7869df",
-    "url": "/static/js/2.b9ba2cf4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.974d5ce4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e563dbb0c862691b68d9",
-    "url": "/static/js/main.412c1c8b.chunk.js"
+    "revision": "f26d0ffc2c85bbaa51b6",
+    "url": "/static/js/main.af6f257c.chunk.js"
   },
   {
     "revision": "0b4f3269348c2e5315e5",
     "url": "/static/js/runtime-main.9089ee33.js"
   },
   {
-    "revision": "ee6539921d713482b8ccd4d0d23961bb",
-    "url": "/static/media/Montserrat-Regular.ee653992.ttf"
-  },
-  {
-    "revision": "c74d6164d8b06159c9643b5130f28f89",
-    "url": "/static/media/Tiago_Grimaldi_Rossi_Resume.c74d6164.pdf"
+    "revision": "d3f56d2277fbad63c420837e220e4e18",
+    "url": "/static/media/TiagoG_Resume2021_FINAL.d3f56d22.pdf"
   },
   {
     "revision": "5dc94ad65ff4960a7b6f602639fb3c94",
-    "url": "/static/media/bgMaybe.5dc94ad6.jpg"
-  },
-  {
-    "revision": "54b3df862d8dc29c7986edb6d33345d7",
-    "url": "/static/media/cloudCare.54b3df86.png"
-  },
-  {
-    "revision": "81f48adbd028d25c632e10bb35640cca",
-    "url": "/static/media/deg.81f48adb.jpg"
-  },
-  {
-    "revision": "de3d342f778188887feffa1906bf8664",
-    "url": "/static/media/fledge.de3d342f.png"
+    "url": "/static/media/bg.5dc94ad6.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -70,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "c909e31a45600d28337e2aa707ab4cec",
+    "url": "/static/media/tiago.c909e31a.jpg"
   }
 ]);
