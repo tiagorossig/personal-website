@@ -74,8 +74,8 @@ html {
 
 /* AboutMe */
 .oval {
+  max-width: 100%;
   width: 525px;
-  height: 700px;
   border-radius: 50%;
   display: block;
   margin: auto;
