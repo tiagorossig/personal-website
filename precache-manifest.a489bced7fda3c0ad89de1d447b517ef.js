@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2785a8aa85817a1baad53a0d0ff57028",
+    "revision": "8d70567c6de2d2cae03d1a7375893612",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.544bf100.chunk.css"
   },
   {
-    "revision": "138e56c8a7dcfdc911c0",
+    "revision": "1fba0d2d686405afbad0",
     "url": "/static/css/main.4e4e7ce4.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.974d5ce4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "138e56c8a7dcfdc911c0",
-    "url": "/static/js/main.6fb35c2f.chunk.js"
+    "revision": "1fba0d2d686405afbad0",
+    "url": "/static/js/main.af6f257c.chunk.js"
   },
   {
     "revision": "0b4f3269348c2e5315e5",
     "url": "/static/js/runtime-main.9089ee33.js"
   },
   {
-    "revision": "5ca8911e71363c6a69a3eeda26ca22a2",
-    "url": "/static/media/Tiago_Grimaldi_Rossi_Resume.5ca8911e.pdf"
+    "revision": "d3f56d2277fbad63c420837e220e4e18",
+    "url": "/static/media/TiagoG_Resume2021_FINAL.d3f56d22.pdf"
   },
   {
     "revision": "5dc94ad65ff4960a7b6f602639fb3c94",
